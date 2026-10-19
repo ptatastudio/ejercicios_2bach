@@ -6,7 +6,11 @@ public class Ejercicio2 {
     static void main() {
         Scanner in = new Scanner(System.in);
 
+        //El valor añadido
         final double VALOR = 1.5;
+
+        //El tiempo de Jornada
+        final double JORNADA = 40;
 
         System.out.println("¿Cuantas horas trabajas?");
         double hora = in.nextFloat();
@@ -21,9 +25,10 @@ public class Ejercicio2 {
         double ganancias3;
 
         ganancias = hora*precio;
-        ganancias2 = ((hora*precio)*VALOR)-hora*precio;
+        ganancias2 = (ganancias*VALOR)-ganancias;
         ganancias3 = ganancias+ganancias2;
-        if (hora > 40) {
+
+        if (hora > JORNADA) {
             System.out.println("Ganas: " + ganancias3 + " $");
         }else{
             System.out.println("Ganas: " + ganancias + " $");
