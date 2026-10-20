@@ -19,12 +19,14 @@ public class Ejercicio8 {
         System.out.println("Introduce otro lado");
         float l3 = in.nextFloat();
 
-        if (l1==l2 l2=l3 ) {
-            //
-        }else if (){
-            //
-        }else{
-            //
+        if (l1!=l2 & l2!=l3 & l3!=l1 ) {
+            System.out.println("Es un triangulo escaleno");
+
+            }else if (l1==l2 & l2==l3 &  l3==l1){
+            System.out.println("Es un triangulo equilátero");
+
+            }else{
+            System.out.println("Es un triangulo isosceles");
         }
     }
 }
