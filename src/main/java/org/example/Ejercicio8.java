@@ -22,7 +22,7 @@ public class Ejercicio8 {
         if (l1!=l2 & l2!=l3 & l3!=l1 ) {
             System.out.println("Es un triangulo escaleno");
 
-            }else if (l1==l2 & l2==l3 &  l3==l1){
+            }else if (l1==l2 & l2==l3 & l3==l1){
             System.out.println("Es un triangulo equilátero");
 
             }else{
