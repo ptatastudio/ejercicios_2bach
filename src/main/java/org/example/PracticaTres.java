@@ -43,15 +43,19 @@ public class PracticaTres {
         int n_c2 = Integer.parseInt(c2);
         int n_c3 = Integer.parseInt(c3);
 
-        //Juntar cada numero e imprimir en distintas posicinones para motras proceso de multiplicación
+        //Juntar cada numero e imprimir en distintas posicinones para motras proceso de multiplicació
 
-        System.out.println(numero);
+        System.out.println("El resultado de la multiplicación es: " + numero * numero2);
+
+        System.out.println("El proceso es: ");
+
+        System.out.println("  " +numero);
         System.out.println("x " + numero2);
 
         System.out.println("--------");
 
-        System.out.println(n_c3 * numero);
-        System.out.println(n_c2 * numero + "x");
+        System.out.println("  " + n_c3 * numero);
+        System.out.println(" " + n_c2 * numero + "x");
         System.out.println(n_c1 * numero + "xx");
 
         System.out.println("--------");
