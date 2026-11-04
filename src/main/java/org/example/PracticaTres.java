@@ -29,6 +29,16 @@ public class PracticaTres {
             numero2 = in.nextInt();
 
         } while (numero2 <= 99 || numero2 > 999);
+        
+        //Otra forma
+//        int numero3 = 123;
+//
+//        int derecha = numero3 % 10;
+//        int medio = (numero3/10) % 10;
+//        int izquierda = (numero3/100);
+//
+//        System.out.println(derecha + " " + medio + " " + izquierda);
+
 
         //Convertir los enteros a Strings para sacar cada posición
 
