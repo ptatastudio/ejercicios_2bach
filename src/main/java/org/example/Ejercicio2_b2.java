@@ -8,19 +8,15 @@ public class Ejercicio2_b2 {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Introduce un texto:");
-        String t = in.nextLine();
+        String t1 = in.nextLine();
+        String t2 = in.nextLine();
 
-        System.out.println("Longitud de frase:");
-        System.out.println(t.length());
-
-        System.out.println("Frase sin espacios:");
-        System.out.println(t.replace(" ", ""));
-
-        System.out.println("Frase sin espacios:");
-        System.out.println(t.replace(" ", ""));
-
-
+        if (t1.length() > t2.length()) {
+            System.out.println("mayor t1");
+        } else {
+            System.out.println("mayor t2");
 
 
     }
+}
 }
