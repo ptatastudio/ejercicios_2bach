@@ -9,14 +9,14 @@ public class Ejercicio2_b2 {
 
         System.out.println("Introduce un texto:");
         String t1 = in.nextLine();
+
+        System.out.println("Introduce otro texto:");
         String t2 = in.nextLine();
 
         if (t1.length() > t2.length()) {
-            System.out.println("mayor t1");
+            System.out.println("mayor " + t1);
         } else {
-            System.out.println("mayor t2");
-
-
+            System.out.println("mayor " + t2);
     }
 }
 }
