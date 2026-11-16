@@ -31,7 +31,7 @@ public class ClasificadorGeneraciones {
                 if (g >= 1900 && g <= crrt_year) {
                     System.out.println("Valido, naciste en " + g);
 
-                    //test
+                    //Clasificar la generacion
                     if (g <= 1927) {
                         System.out.println("Sin Generación bautizada");
 
@@ -55,7 +55,7 @@ public class ClasificadorGeneraciones {
                 }
                 break;
             case 2:
-                //modo 2
+                //Casificar la genereacion
                 System.out.println("Introduce tu edad:");
                 int year = in.nextInt();
 
@@ -63,7 +63,6 @@ public class ClasificadorGeneraciones {
                     int g2 = (crrt_year - year);
                     System.out.println("Valido, naciste en el " + g2);
 
-                    //test
                     if (g2 >= 1900 && g2 <= 1927) {
                         System.out.println("Sin Generación bautizada");
 
