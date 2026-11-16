@@ -47,12 +47,11 @@ public class ClasificadorGeneraciones {
                     } else if (g <= 1994) {
                         System.out.println("Generación Y");
 
-                    } else if (g <= 2009) {
+                    } else {
                         System.out.println("Generación Z");
-
+                    }
                 } else {
                     System.out.println("No valido");
-                    }
                 }
                 break;
             case 2:
@@ -80,11 +79,11 @@ public class ClasificadorGeneraciones {
                     } else if (g2 >= 1982  && g2 <= 1994) {
                         System.out.println("Generación Y");
 
-                    } else if (g2 >= 1995) {
+                    } else {
                         System.out.println("Generación Z");
+                    }
                 } else {
                     System.out.println("No valido");
-                }
                 break;
                 }
         }
