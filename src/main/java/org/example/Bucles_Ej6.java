@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Bucles_Ej6 {
     static void main() {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("¿Cuántos números quieres sumar?: ");
+        System.out.println("Introduce un numero para ver el factorial: ");
         int n = teclado.nextInt();
         System.out.print(n + "! = ");
         int contador = 1;
