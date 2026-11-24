@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class Bucles_Ej6 {
     static void main() {
-        Scanner teclado = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Introduce un numero para ver el factorial: ");
-        int n = teclado.nextInt();
+        int n = in.nextInt();
         System.out.print(n + "! = ");
-        int contador = 1;
+        int count = 1;
+
+        //Bucle de multiplicar
         for (int i= n; i >=1; i--){
             if (i == 1){
                 System.out.print(i + " = ");
@@ -14,8 +16,10 @@ public class Bucles_Ej6 {
                 System.out.print(i + "*");
 
             }
-            contador = contador*i;
+            count = count*i;
         }
-        System.out.print(contador);
+
+        //Mostrar resultado
+        System.out.print(count);
     }
 }
